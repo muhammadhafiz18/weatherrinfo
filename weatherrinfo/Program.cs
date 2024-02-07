@@ -12,7 +12,7 @@ namespace weatherrinfo
         {
             using (var client = new HttpClient())
             {
-                HttpResponseMessage response = await client.GetAsync("http://api.weatherapi.com/v1/current.json?key=abe8cf481e2e45d29b5140709240602&q=Tashkent");
+                HttpResponseMessage response = await client.GetAsync("http://api.weatherapi.com/v1/current.json?key=yourtokenhereplease!!!q=Tashkent");
 
                 if (response.IsSuccessStatusCode)
                 {
